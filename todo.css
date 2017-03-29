@@ -1,0 +1,95 @@
+#main {
+    margin: 10px;
+    background-color: #d3d3d3;
+    height: 500px;
+    min-width: 700px;
+    width: 60%;
+}
+
+#main #heading {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#main #addTodo {
+    margin: 40px;
+}
+
+#main #showTodos #todoList #header{
+    border: 1px solid;
+    width: 605px;
+    padding: 2px;
+}
+
+#main #showTodos #todoList #header label{
+    font: normal 16px courier;
+    color: blue;
+}
+
+#main #showTodos #todoList #header #id{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#main #showTodos #todoList #header #name{
+    padding-right: 25px;
+    padding-left: 30px;
+}
+
+#main #showTodos #todoList #header #status{
+    padding-right: 25px;
+    padding-left: 87px;
+}
+
+#main #showTodos #todoList #header #action{
+    padding-left: 68px;
+}
+
+#main #showTodos #todoList{
+    border-width: 0px 1px 1px 1px;
+    height: 300px;
+    overflow-y: scroll;
+    list-style-type: none
+}
+
+#main #showTodos #todoList .item{
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    width: 605px;
+    padding: 2px;
+    list-style-type: none
+}
+
+#main #showTodos #todoList .item #id{
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+#main #showTodos #todoList .item #name{
+    margin-right: 25px;
+    width: 100px;
+    display: inline-block;
+}
+
+#main #showTodos #todoList .item #status{
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 100px;
+    display: inline-block;
+}
+
+#main #showTodos #todoList .item .action{
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 50px;
+    display: inline-block;
+}
+
+#main #showTodos #todoList .item #save{
+    display: none;
+}
+

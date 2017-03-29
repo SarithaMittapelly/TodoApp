@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="main">
+    <h2 id="heading">TODO LIST</h2>
+    <div id="addTodo">
+        <input type="text" id="todoName"/>
+        <button id="add">Add ToDo</button>
+    </div>
+    <div id="showTodos">
+        <ul id="todoList">
+            <li id="header">
+                <label id="id">No</label>
+                <label id="name">Name</label>
+                <label id="status">Status</label>
+                <label id="action">Action</label>
+            </li>
+        </ul>
+    </div>
+    <ul id="todo" style="display: none;">
+        <li class="item">
+            <label id="id">todoID</label>
+            <label id="name">todoName</label>
+            <label id="status">todoStatus</label>
+            <button class="action" id="edit">Edit</button>
+            <button class="action" id="save">Save</button>
+            <button class="action" id="delete">Delete</button>
+        </li>
+    </ul>
+    <div id="editTodoStatus" style="display: none;">
+        <select>
+            <option value="Incomplete">Incomplete</option>
+            <option value="Complete">Complete</option>
+        </select>
+    </div>
+</div>
+</body>
+</html>
